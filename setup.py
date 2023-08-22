@@ -45,10 +45,10 @@ def setup_package():
             },
         install_requires=[
             'biopython >= 1.58',
-            'bioext >= 0.20.5',
+            'bioext @ git+https://github.com/FynnFreyer/BioExt@draft/amend_build',
             'hppy >= 0.9.9',
             'tornado >= 4.3',
-            'hivclustering >= 1.6.5',
+            'hivclustering @ git+https://github.com/FynnFreyer/hivclustering',
             ],
         entry_points={
             'console_scripts': [
