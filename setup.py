@@ -45,10 +45,10 @@ def setup_package():
             },
         install_requires=[
             'biopython >= 1.58',
-            'bioext @ https://github.com/FynnFreyer/BioExt/archive/c58951c3d57e714ae09d7abc450124bf3c7bbbae.zip#sha256=0baf4a91766dacd6b30dcf9a9ce85e989baa38f34c5589c6011a82a814052f31',
+            'bioext  @ https://github.com/FynnFreyer/BioExt/archive/bd9f4c8d1298651943be6b9679385f1829b4a65d.zip#sha256=1d4232556e010a5c5de94617fd006ee1bc2e56513b13f92d16c99a01898169d3',
             'hppy >= 0.9.9',
             'tornado >= 4.3',
-            'hivclustering @ https://github.com/FynnFreyer/hivclustering/archive/5477e7208d2ca8e65e4d0bd083a82f81deb0abda.zip#sha256=c2ea8cb45d17dbc1e778415c9877c3140fd954215b3cd595d9a64a881e46ac00',
+            'hivclustering @ https://github.com/FynnFreyer/hivclustering/archive/23279699bc4a680ae293037c5730867ade3fc540.zip#sha256=f8258a184a760534a5a72333567049a0aa96aeb3e9fc26299dd40158c89a4e7f',
             ],
         entry_points={
             'console_scripts': [
